@@ -9,8 +9,9 @@ describe('DemoBlaze Test', () => {
   
     it('Clicks on About Us Top Navigation Button', () => {
         cy.get("a").contains("About us").click();
-        //cy.wait(2000);
+        cy.wait(2000);
         cy.contains('About us').should("be.visible");
+        cy.get('button').contains('Close').click();
 
       })
     })
