@@ -1,6 +1,6 @@
 export default{
 
-///////////////Top Navigation//////////////////  s
+///////////////Top Navigation//////////////////
 
 Home : "//li[@class='nav-item active']//a[@class='nav-link']",
 Contact : "//a[normalize-space()='Contact']",
@@ -42,8 +42,6 @@ Password : "Kobegoat#0824",
 Samsung_galaxy_s6 : "body > div:nth-child(6) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > h4:nth-child(1) > a:nth-child(1)",
 MacBookPro : "//a[normalize-space()='MacBook Pro']",
 AppleMonitor24 : "//a[normalize-space()='Apple monitor 24']",
-
-
 
 
 };
