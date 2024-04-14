@@ -2,9 +2,9 @@ export default{
 
 ///////////////Top Navigation//////////////////
 
-Home : "//li[@class='nav-item active']//a[@class='nav-link']",
-Contact : "//a[normalize-space()='Contact']",
-About_us : "//a[normalize-space()='About us']",
+Home : '.active > .nav-link',
+Contact : ':nth-child(2) > .nav-link',
+About_us : ':nth-child(3) > .nav-link',
 About_us_close : "//div[@id='videoModal']//button[@type='button'][normalize-space()='Close']",
 Cart : "#cartur",
 Log_in : "#login2",
@@ -20,15 +20,17 @@ PlaceOrder : ".btn.btn-success",
 
 /////////////////Categories////////////////////
 
-Phone : "body > div:nth-child(6) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(2)",
-Laptop: "body > div:nth-child(6) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(3)",
-Monitors: "body > div:nth-child(6) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(4)",
+
+Categories : '#cat',
+Phones : 'Phones',
+Laptops : 'Laptops',
+Monitors : 'Monitors',
 
 
 ////////////////////Pagination////////////////
 
-Previous : "//button[@id='prev2']",
-Next : "//button[@id='next2']", 
+Previous : '#prev2',
+Next : '#next2', 
 
 
 /////////////////////Credentials////////////
@@ -43,5 +45,14 @@ Samsung_galaxy_s6 : "body > div:nth-child(6) > div:nth-child(1) > div:nth-child(
 MacBookPro : "//a[normalize-space()='MacBook Pro']",
 AppleMonitor24 : "//a[normalize-space()='Apple monitor 24']",
 
+
+///////////////////Log in Modal//////////////
+
+Login_text : '#logInModalLabel',
+Username_text : "#logInModal > .modal-dialog > .modal-content > .modal-body > form > :nth-child(1) > .form-control-label",
+Password_text : '#logInModal > .modal-dialog > .modal-content > .modal-body > form > :nth-child(2) > .form-control-label',
+Close_Btn : '#logInModal > .modal-dialog > .modal-content > .modal-footer > .btn-secondary',
+Login_Btn : '#logInModal > .modal-dialog > .modal-content > .modal-footer > .btn-primary',
+Delete_Btn : '#tbodyid > :nth-child(1) > :nth-child(4) > a',
 
 };
