@@ -36,6 +36,10 @@ describe('DemoBlaze End 2 End Test', () => {
         cy.get(selectors.Delete_Btn).should("contain.text", "Delete").click();
         cy.get(selectors.Delete_Btn).should("not.exist");
 
+        cy.get(selectors.About_us).should('contain.text', 'About Us');
+        //cy.get(selectors.About_us_text)
+        //.should('contain.text', 'We believe performance needs to be validated at every stage of the software development cycle and our open source compatible, massively scalable platform makes that a reality.');
+
 
        
 

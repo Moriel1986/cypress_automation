@@ -18,7 +18,7 @@ import selectors from "./selectors.js";
     Cypress.Commands.add('assert_homepage_elements', () => {
         cy.get(selectors.Home).should('contain.text', "Home");
         cy.get(selectors.Contact).should('contain.text', "Contact");
-        cy.get(selectors.About_us).should('contain.text', "About us");
+        cy.get(selectors.About_us).should('contain.text', "About Us");
         cy.get(selectors.Cart).should('contain.text', "Cart");
         cy.get(selectors.Log_in).should('contain.text', "Log in");
         cy.get(selectors.Sign_up).should('contain.text', "Sign up");

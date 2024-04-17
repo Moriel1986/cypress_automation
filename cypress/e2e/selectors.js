@@ -55,4 +55,10 @@ Close_Btn : '#logInModal > .modal-dialog > .modal-content > .modal-footer > .btn
 Login_Btn : '#logInModal > .modal-dialog > .modal-content > .modal-footer > .btn-primary',
 Delete_Btn : '#tbodyid > :nth-child(1) > :nth-child(4) > a',
 
+////////////////////footer///////////////////
+
+About_us : ':nth-child(1) > .thumbnail > .caption > .grrrr > b',
+About_us_text : ':nth-child(1) > .thumbnail > .caption > p',
+
+
 };
