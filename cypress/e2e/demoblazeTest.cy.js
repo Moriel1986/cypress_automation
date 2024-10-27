@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 import selectors from "./selectors.js";
-import './commands';
+import '../support/commands.js';
 
 
 
